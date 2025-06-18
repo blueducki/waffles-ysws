@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>honey clicker</title>
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html" class="active">clicker</a>
+        <a href="shop.html">shop</a>
+    </div>
+
+    <div class="clicker-page">
+        <h1>honey clicker</h1>
+        
+        <div class="honey-display">
+            <p>honey: <span id="honey-count">0</span></p>
+            <p>per second: <span id="per-second">0</span></p>
+        </div>
+
+        <div class="honey-jar" id="honey-jar">
+            <img src="icons/honey.png" alt="honey jar">
+            <div class="bees" id="bees-container"></div>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <img src="icons/bee.png" alt="bee">
+                <span>bees: <span id="bee-count">0</span></span>
+            </div>
+            <div class="stat">
+                <img src="icons/leaf.png" alt="environment">
+                <span>environment: <span id="environment">city</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

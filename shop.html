@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>honey clicker - shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">clicker</a>
+        <a href="shop.html" class="active">shop</a>
+    </div>
+
+    <div class="shop-page">
+        <div class="honey-display">
+            <p>honey: <span id="honey-count">0</span></p>
+        </div>
+
+        <div class="shop-grid">
+            <div class="shop-item" data-type="bee">
+                <img src="icons/bee.png" alt="bee">
+                <div class="item-info">
+                    <h3>bee</h3>
+                    <p>produces 1 honey/s</p>
+                    <p>owned: <span class="owned">0</span></p>
+                </div>
+                <button class="buy-btn">buy (50 honey)</button>
+            </div>
+
+            <div class="shop-item" data-type="environment">
+                <img src="icons/leaf.png" alt="environment">
+                <div class="item-info">
+                    <h3>environment upgrade</h3>
+                    <p>multiplies all production</p>
+                    <p>current: <span id="env-name">city</span></p>
+                </div>
+                <button class="buy-btn" id="env-btn">upgrade (1000 honey)</button>
+            </div>
+
+            <div class="flower-section">
+                <h2>flowers</h2>
+                <div class="flower-grid">
+                    <div class="shop-item flower" data-type="forgetMeNot">
+                        <img src="icons/forgetMeNot.png" alt="forget me not">
+                        <div class="item-info">
+                            <h3>forget-me-not</h3>
+                            <p>produces 3 honey/s</p>
+                            <p>owned: <span class="owned">0</span></p>
+                        </div>
+                        <button class="buy-btn">buy (150 honey)</button>
+                    </div>
+
+                    <div class="shop-item flower locked" data-type="marigold">
+                        <img src="icons/questionmark.png" alt="locked">
+                        <div class="item-info">
+                            <h3>???</h3>
+                            <p>item is locked</p>
+                            <p>owned: <span class="owned">0</span></p>
+                        </div>
+                        <button class="buy-btn">unlock (300 honey)</button>
+                    </div>
+
+                    <div class="shop-item flower locked" data-type="daisy">
+                        <img src="icons/questionmark.png" alt="locked">
+                        <div class="item-info">
+                            <h3>???</h3>
+                            <p>item is locked</p>
+                            <p>owned: <span class="owned">0</span></p>
+                        </div>
+                        <button class="buy-btn">unlock (600 honey)</button>
+                    </div>
+
+                    <div class="shop-item flower locked" data-type="dandelion">
+                        <img src="icons/questionmark.png" alt="locked">
+                        <div class="item-info">
+                            <h3>???</h3>
+                            <p>item is locked</p>
+                            <p>owned: <span class="owned">0</span></p>
+                        </div>
+                        <button class="buy-btn">unlock (1200 honey)</button>
+                    </div>
+
+                    <div class="shop-item flower locked" data-type="knapweed">
+                        <img src="icons/questionmark.png" alt="locked">
+                        <div class="item-info">
+                            <h3>???</h3>
+                            <p>item is locked</p>
+                            <p>owned: <span class="owned">0</span></p>
+                        </div>
+                        <button class="buy-btn">unlock (2400 honey)</button>
+                    </div>
+
+                    <div class="shop-item flower locked" data-type="muskMallow">
+                        <img src="icons/questionmark.png" alt="locked">
+                        <div class="item-info">
+                            <h3>???</h3>
+                            <p>item is locked</p>
+                            <p>owned: <span class="owned">0</span></p>
+                        </div>
+                        <button class="buy-btn">unlock (4800 honey)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
